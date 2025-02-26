@@ -14,7 +14,7 @@ conectarDB();
 app.use(express.json());
 
 app.use('/trabajadores', trabajadorRoutes);
-app.use('/trabajador/tareas', tareaRoutes);
+app.use('/trabajadores', tareaRoutes); 
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {

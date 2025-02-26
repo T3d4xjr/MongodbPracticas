@@ -6,4 +6,4 @@ const trabajadorSchema = new mongoose.Schema({
   telefono: { type: String, required: true}
 });
 
-module.exports = mongoose.model('Trabajador', trabajadorSchema);
+module.exports = mongoose.model('Trabajador', trabajadorSchema,'trabajadores');
